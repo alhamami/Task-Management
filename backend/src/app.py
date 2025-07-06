@@ -4,7 +4,7 @@ from flask_cors import CORS
 from flask_migrate import Migrate
 from dotenv import load_dotenv
 import os
-from database.database import db
+from database import db
 from config import Config
 
 # Load environment variables
